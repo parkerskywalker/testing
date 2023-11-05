@@ -23,3 +23,4 @@ for num in range(2, 1000):
         sum += num
         print("{} {}".format(num, sum))
 
+

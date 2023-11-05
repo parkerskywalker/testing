@@ -24,11 +24,9 @@ class SmallestNumber():
                 if number in lst:
                     lst.remove(number)                    
                     break
-            
-            #print(f"{sequence} ... { number }%{ i }={ number % i }")
+                                    
         for fields in lst:
-            return fields
-        #return lst
+            return fields        
 
 number = 1000000000000
 sequence = 20
